@@ -1,10 +1,14 @@
 from flask import Flask
-
+from flask import render_template
 app = Flask(__name__)
 
 @app.route("/")
 def home_page():
-    return "<p>Web App to check for Diabetes</p>"
+    return render_template('index.html')
+    
+@app.route("/team")
+def team_page():
+    return render_template('team.html')
 
 @app.route("/sign_up")
 def sign_up():
