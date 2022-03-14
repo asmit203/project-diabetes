@@ -1,0 +1,14 @@
+1) login page should contain a signup redirect and vice-versa
+2)chek up er page ta banate hobe ig
+3)data entry point tao make korte hobe.
+
+
+
+
+
+
+
+>> home page e :
+add tagline>> 
+'SUPPORT ++'
++ will be solid bolded in green color
