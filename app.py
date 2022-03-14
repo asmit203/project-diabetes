@@ -12,12 +12,11 @@ def team_page():
 
 @app.route("/sign_up")
 def sign_up():
-    return "<p>Sign up page</p>"
+    return render_template('sign_up.html')
 
 @app.route("/log_in")
 def log_in():
-    return "<p>Sign up page</p>"
-
+    return render_template('log_in.html')
 
 
 if __name__=="__main__":
