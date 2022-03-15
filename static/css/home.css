@@ -1,13 +1,35 @@
 .home-text
 {
     margin-top:15%;
-    font-size: 350%;
+    text-align: center;
+    font-size: 300%;
     font-weight: bold;
     font-family: 'Varela Round', sans-serif;
     color: rgb(228, 227, 216);
+    max-width: 100vh;
 }
 
 .home-img
 {
     margin-top:5%;
+    width:max-content;
+    align-items: center;
+}
+img{
+    width:35vw;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    img
+    {
+        width:80vw;
+    }
+    .home-text
+    {
+        margin-top:15%;
+        font-size: 350%;
+    }
+    
+
 }
