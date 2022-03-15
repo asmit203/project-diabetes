@@ -3,6 +3,7 @@
     margin-top: 40px;
     color:white;
     font-size: 25px;
+    margin-bottom:20%;
 }
 .form-head
 {
@@ -59,7 +60,7 @@ label
   
   @media screen and (max-width: 1000px) 
   {
-    body
+   form
     {
       font-size: 45px;
     }
