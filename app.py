@@ -18,6 +18,9 @@ def sign_up():
 def log_in():
     return render_template('log_in.html')
 
+@app.route("/check")
+def check():
+    return render_template('check.html')
 
 if __name__=="__main__":
         app.run(debug=True)

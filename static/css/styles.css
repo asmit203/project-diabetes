@@ -1,6 +1,22 @@
 
 body{
     background-color: rgb(25, 0, 58);
+    color:aliceblue;
+}
+form{
+    color:rgb(25, 0, 58)
+}
+.slider
+{
+    color:white;
+}
+footer{
+    background-color: rgb(255, 243, 220);
+    text-align: center;
+    height:20%;
+    width:100%;
+    margin-bottom: 0px;
+    color:rgb(25, 0, 58);
 }
 
 @media screen and (max-width: 1000px) 
