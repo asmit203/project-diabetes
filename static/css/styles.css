@@ -2,3 +2,15 @@
 body{
     background-color: rgb(25, 0, 58);
 }
+
+@media screen and (max-width: 1000px) 
+{
+    nav
+    {
+        font-size: 200%;
+    }
+    .navbar-brand
+    {
+        font-size: 150%;
+    }
+}
