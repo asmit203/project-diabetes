@@ -3,7 +3,8 @@
 3)data entry point tao make korte hobe.
 
 
-
+>>Server is slow loading
+>https://stackoverflow.com/questions/11150343/slow-requests-on-local-flask-server
 
 
 
